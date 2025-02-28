@@ -9,9 +9,6 @@ def slp():
 def slp():
     time.sleep(5)
 
-def slp():
-    time.sleep(5)
-
 # Inicializando o navegador
 navegadorpa = webdriver.Chrome()
 navegadorpa.get('https://www.paodeacucar.com/')
