@@ -6,6 +6,12 @@ from selenium.webdriver.common.keys import Keys
 def slp():
     time.sleep(5)
 
+def slp():
+    time.sleep(5)
+
+def slp():
+    time.sleep(5)
+
 # Inicializando o navegador
 navegadorpa = webdriver.Chrome()
 navegadorpa.get('https://www.paodeacucar.com/')
@@ -38,7 +44,7 @@ for info in produto:
     
     # Criando o dicionário para armazenar informações do produto
     produto_info = {}
-
+    lista_produtos = []
     try:
         # Pegando o nome do produto
         nome = navegadorpa.find_element(By.XPATH, "/html/body/div[1]/div[2]/div/main/div[2]/div/div[1]/div[2]")
